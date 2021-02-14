@@ -1,0 +1,117 @@
+body {
+  background-color: #282c34;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 2rem;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w2 {
+  width: 0.25rem;
+}
+
+.w4 {
+  width: 1rem;
+}
+
+.h4 {
+  height: 1rem;
+}
+
+.w10 {
+  width: 20rem;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.pa3 {
+  padding: 0.5rem;
+}
+
+.ma0 {
+  margin: 0rem;
+}
+
+.mt5 {
+  margin-top: 2rem;
+}
+
+.bg-gainsboro {
+  background: gainsboro;
+}
+
+.white {
+  color: white;
+}
+
+ul li a {
+  color: black;
+}
+
+ul.detail li a {
+  color: white;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
